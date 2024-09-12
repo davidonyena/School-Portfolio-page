@@ -1,0 +1,97 @@
+/* Font, font color, and background color to the whole site */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+
+/* The header */
+h1 {
+    text-align: center;
+    background-color: #008080;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* The main content area */
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* The tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #008080;
+    color: #fff;
+}
+
+/* Section with list and figures */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* The list styled */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* The images styled */
+figure {
+    margin-bottom: 20px;
+}
+
+figcaption {
+    text-align: left;
+    font-style: italic;
+    color: #666;
+}
+
+/* styles for the footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Center the text in the footer */
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
